@@ -1,0 +1,113 @@
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±            T A N Q U E S   1.0-BETA   1.996   BY  FEGOR                ±
+±------------------------------------------------------------------------±
+±                  Fernando Gonz lez Ruano (FEGOR)                       ±
+±------------------------------------------------------------------------±
+±                   CLUB VIRTUAL ZONE    -1.996-                         ±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+
+Este juego es simplemente una demostraci¢n de los art¡culos aparecidos
+en Virtual Zone Magazine (VZM) del n.2 al n.4 sobre la programaci¢n del
+puerto serie. En esta revista podeis encontrar los fuentes documentados
+para que podais entender su funcionamiento.
+
+Por tanto no pretende ser un juego perfecto, ni tampoco un ejemplo
+perfecto de como es la programaci¢n de videojuegos que utilicen el
+puerto serie para comunicarse y actualizar datos.
+
+El autor no se hace responsable de la p‚rdida de datos o da¤os que el
+c¢digo contenido pueda hacer a su ordenador, lo £nico que garantiza es
+la ocupaci¢n de memoria de su disco duro.  O:)
+
+Para cualquier consulta sobre el juego, as¡ como para futuras revisiones
+que se puedan hacer por miembros del club Virtual Zone podeis poneros en
+contacto conmigo en la siguiente direcci¢n postal:
+
+        Fernando Gonz lez Ruano
+        C/Clavel,12
+        18198   Monachil
+        Granada  (ESPA¥A)
+
+Tambi‚n en las siguientes direcciones de correo electr¢nico de internet
+y fidonet:
+
+        internet:  fgonru@arrakis.es
+                   fernan@p15.atlantis.encomix.com
+
+        fidonet:   2:345/801.15
+
+Este juego es "carware", lo que significa que agradecer‚ mucho las
+postales que me envi‚is. ;-)
+
+Los ficheros contenidos en este directorio son:
+
+C:TANQUES                       : Juego
+³   LEEME.TXT
+³   TANQUES.SPR
+³   TANQUES.TXT
+³   TANQUES.PAL
+³   TANQUES.EXE
+³   TANQUES.REM
+³   
+ÃÄÄÄUTILSPR                     : Utilid. para generar los fich. de datos
+³   ³   FOTO.CEL
+³   ³   T1E1M.CEL
+³   ³   T1S1M.CEL
+³   ³   T1O1M.CEL
+³   ³   T1N1M.CEL
+³   ³   T1N2M.CEL
+³   ³   T1E2M.CEL
+³   ³   CRUZROJA.CEL
+³   ³   T1S2M.CEL
+³   ³   MUNICION.CEL
+³   ³   T1O2M.CEL
+³   ³   BOMBAE.CEL
+³   ³   BOMBAS.CEL
+³   ³   BOMBAO.CEL
+³   ³   BOMBAN.CEL
+³   ³   DESTROZO.CEL
+³   ³   T2N1M.CEL
+³   ³   T2E1M.CEL
+³   ³   T2S1M.CEL
+³   ³   T2O1M.CEL
+³   ³   T2N2M.CEL
+³   ³   T2E2M.CEL
+³   ³   T2S2M.CEL
+³   ³   T2O2M.CEL
+³   ³   FUEL.CEL
+³   ³   P1.CEL
+³   ³   P2.CEL
+³   ³   P3.CEL
+³   ³   LADRILLO.CEL
+³   ³   BASEV.CEL
+³   ³   BASEA.CEL
+³   ³   CELTOSPR.EXE
+³   ³   CELTOPAL.EXE
+³   ³   DATOS.BAT
+³   ³   
+³   ÀÄÄÄFUENTES                 : Fuentes de las utilidades
+³           CELTOPAL.C
+³           CELTOSPR.C
+³           
+ÀÄÄÄFUENTES                     : Fuentes del juego
+        TANQUES.MAK
+        COMPILA.BAT
+        MAKEFILE
+        SERIE.C
+        BATALLA.C
+        VIDEO.H
+        TANQUES.CFG
+        VIDEO.C
+        SONIDO.C
+        SONIDO.H
+        RS232.H
+        TECLAS.H
+        TANQUES.PRJ
+        TANQUES.DSK
+        BATALLA.H
+        CAMPOS.H
+        TANQUES.C
+        TECLADO.C
+
+> FEGOR. (1996)
+

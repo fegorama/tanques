@@ -1,0 +1,189 @@
+��������������������������������������������������������������������������
+�            T A N Q U E S   1.0-BETA   1.996   BY  FEGOR                �
+�------------------------------------------------------------------------�
+�                  Fernando Gonz�lez Ruano (FEGOR)                       �
+�------------------------------------------------------------------------�
+�                   CLUB VIRTUAL ZONE    -1.996-                         �
+��������������������������������������������������������������������������
+
+        En principio deciros que es un juego para dos jugadores, por
+        tanto no sirve para jugar uno solo, as� que ya sabeis, cogeros a
+        vuestra novia, hermano o amigo y retadlo a un duelo de
+        "tanquecitos" :-)
+
+        Este juego es una peque�a adaptaci�n del juego "Armoured assault"
+        al que jugu� con mi amigo Ivan y su hermano Pedro hace ya mucho 
+        tiempo con su ordenador "Spectravideo 318".
+
+���������������������������� INSTRUCCIONES �������������������������������
+
+        Los par�metros que admite el juego son los siguientes:
+
+                TANQUES [-s] [-e] [-h]
+
+                s -> desactiva el sonido y m�sica
+                e -> desactiva algunos efectos
+                p -> desactiva la presentaci�n
+                h -> peque�a ayuda sobre estos par�metros
+
+        Para el que tenga un ordenador algo lento 386 � 486/33MHz. puede
+        quitar los efectos con lo que el juego ir� m�s deprisa, pero el
+        que tenga un 486/100MHz. o Pentium no deber�a desactivarlos pues
+        los tanques entonces parecer�n reactores... :)
+        
+        Las instrucciones del juego son bien sencillas, como podr�is
+        observar al ejecutarlo aparece tras la dedicatoria y la
+        presentaci�n un men� con 5 opciones.
+
+        1. Jugar
+        2. Conexi�n remota
+        3. Elejir campo
+        4. Cr�ditos
+        5. Salir
+
+1. Jugar
+
+        El juego es muy sencillo, la misi�n es destruir los tanques del
+        adversario o la base directamente. Para ello contamos con un
+        potente "tanquecito" que debemos de guiar por la pantalla
+        mediante las teclas siguientes:
+
+        Para el tanque verde seran:
+
+                Q   -> arriba
+                A   -> abajo
+                J   -> izquierda
+                K   -> derecha
+                SPC -> disparo
+
+        Y para el tanque azul seran:
+
+                Cursor arr. -> arriba
+                Cursor abj. -> abajo
+                Cursor Izq. -> izquierda
+                Cursor Der. -> derecha
+                CTRL        -> disparo
+
+        Dispondremos de un n�mero limitado de disparos que que deberemos
+        de recargar en el dibujito que aparece como una bala, as� como
+        la gasolina/fuel y que debemos recargar en cualquiera de los
+        dibujos o iconos en los que aparece un surtidor.
+
+        Cada tanque aguanta un n�mero de disparos antes de destruirse y
+        que podremos curar pasando por encima de cualquiera de las dos
+        cruces rojas.
+
+        Una vez destruido un tanque, si nos quedan m�s seguiremos
+        jugando, si no, ganar� el que haya destruido todos los tanques.
+        Tambien gana directamente el que destruya la base del contrario.
+
+        Los muros tambi�n pueden ser destruidos, pero ojo, porque
+        destruyendo un solo muro no podr� pasar el tanque ya que es un
+        pel�n m�s grande, por lo que deber�n destruirse dos consecutivos.
+
+        Los impactos necesarios para destruir cada objeto son:
+
+                Objeto          Impactos
+                ========================
+                Muro         |        3
+                Cruz roja    |        3
+                Fuel         |        3
+                Armamento    |        3
+                Tanques      |        5
+                Bases        |       15
+
+        Lo mejor es que lo probeis... :-)
+
+2. Conexi�n remota
+
+        Esta opci�n da paso a otro men� con 4 opciones m�s:
+
+        1. Llamar al oponente  (tanque verde)
+        2. Recibir al oponente (tanque azul)
+        3. Cortar conexi�n
+        4. Volver al men� principal
+
+        Para llamar al oponente elegiremos la primera opci�n.
+        Una vez establecida, pasar� al men� principal, de forma que
+        podamos comenzar el juego...
+
+        Para recibir la llamada, se elije la segunda opci�n y esperamos.
+
+        Con la tercera opci�n podemos cortar la conexi�n.
+
+        La cuarta opci�n no creo que necesite aclaraci�n �verdad? ;-)
+
+        El que llama ser� el tanque verde y el que recibe la llamada
+        ser� el tanque azul. �� SUERTE !!
+
+        �Como se configuran los par�metros del puerto serie?
+
+        Existe un fichero llamado TANQUES.REM que debeis editar para
+        cambiar los par�metros, cada l�nea corresponde a uno de estos
+        par�metros, siendo los siguientes.
+
+        TANQUES.REM (opciones por defecto)
+
+        --------
+        2               -> n�mero del puerto de comunicaciones
+        9600            -> velocidad del puerto
+        --------
+
+        Hay que tener en cuenta que es muy importante el puerto 
+        as� como la velocidad, para que los dos ordenadores se 
+        puedan comunicar correctamente.
+
+3. Elejir campo
+
+        En el juego existen 8 campos definidos y que podremos ir viendo
+        seg�n pulsemos la tecla de espacio <SPC> o barra espaciadora de
+        forma c�clica, con <INTRO> elejimos el campo donde queremos
+        jugar y con <ESC> salimos de esta elecci�n de campo con el campo
+        que ten�amos antes de entrar en esta opci�n.
+
+4. Cr�ditos
+
+        Muestra los cr�ditos del programa, as� como los agradecimientos,
+        etc.
+
+5. Salir
+
+        Saldreis del juego y "volvereis al mundo real..." :)
+
+����������������������������  OBSERVACIONES  �����������������������������
+
+        El juego es una demostraci�n y como tal se ha simplificado mucho
+        hasta el punto de que hay cosas que no est�n controladas como
+        por ejemplo cuando se juega con dos ordenadores conectados las
+        teclas siguen estando activadas de forma que si nos corresponde
+        el tanque verde pero usamos las teclas para mover el tanque azul
+        este se mover� en nuestro ordenador pero no en el remoto ya que
+        no espera recibir esas pulsaciones por lo que se producir� un
+        "desfase" entre una pantalla y otra... esto es debido a la
+        simplificaci�n que he realizado en cuanto al envio de los datos,
+        ya que lo �nico que se env�a o recibe son pulsaciones de
+        teclas...
+
+        Tambi�n he de decir que en un principio estaba previsto que
+        tambi�n funcionase por modem pero la imposibilidad de tiempo
+        f�sico para terminar esa parte de c�digo para que funcionase m�s
+        o menos aceptablemente ha tenido que posponerse para o bien otra
+        versi�n del juego, o que vosotros hagais las modificaciones
+        pertinentes :)
+
+
+���������������������������� AGRADECIMIENTOS �����������������������������
+
+        Ivan, que me ense�� eso que llamaban inform�tica hace ... a�os
+        Legion, por sus ideas y pruebas
+        Spree, por probarlo con sus amigos
+        CPV, al Curso de Programaci�n de Videojuegos por su ayuda
+        y de manera especial a los que leeis VZM ...
+
+                                ... gracias
+
+
+��������������������������������������������������������������������������
+��       Fernando Gonz�lez Ruano  (Fegor)    fgonru@arrakis.es          ��
+��������������������������������������������������������������������������
+
